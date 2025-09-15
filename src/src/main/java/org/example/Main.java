@@ -7,9 +7,26 @@ import ejercicio2.*;
 import ejercicio3.HD;
 import ejercicio3.Plan;
 import ejercicio3.PlanBasico;
+import ejercicio4.Carrito;
+import ejercicio4.Envio;
+import ejercicio4.Pago;
+import ejercicio4.TiendaFacade;
 
 
 public class Main {
+   //  public static void main(String[] args) {
+    //
+    //            // Crear los subsistemas
+    //            Carrito carrito = new Carrito();
+    //            Pago pago = new Pago();
+    //            Envio envio = new Envio();
+    //
+    //            // Crear el Facade con los subsistemas
+    //            TiendaFacade tienda = new TiendaFacade(carrito, pago, envio);
+    //
+    //            // Usar solo el Facade para realizar la compra
+    //            tienda.comprar("Auriculares Bluetooth", 1, "VISA 1234", 100000, "Calle Falsa 123");
+    //        }
     //public static void main(String[] args) {
     //        Plan plan = new PlanBasico();
     //        System.out.println(plan.getNombre() + " $" + plan.getCosto());
