@@ -1,3 +1,19 @@
+
+GRUPO:  Luisina Battella Alma Ponce Matias Fernandez Maria Jose Villarreal Aracelly Caballero M. Candela Gonzalez 
+
+- Los ejericios estan en src/src/main/java
+- Estado actual: Clases organizadas en paquetes, cada paquete es un ejercicio que corresponde a un patron en el orden
+  que aparecen en las consignas.
+
+- Tecnologías
+    * Java 21
+    * IntelliJ IDEA Ultimate edition con licencia educativa
+    * Git
+    * Repositorio en GitHub
+
+  
+Trabajo PATRONES ESTRUCTURALES
+
 Consignas del TP
 Ejercicio 1 – Adapter
 Una empresa tiene un sistema que trabaja con una clase ImpresoraPDF que imprime
@@ -7,7 +23,7 @@ sistema existente.
 Consigna:
 *  Crear una clase ImpresoraTexto (incompatible con la actual).
 *  Usar el patrón Adapter para que el sistema pueda imprimir tanto en PDF como en texto plano a través de una misma interfaz Impresora.
- ____________________________
+ ___________________________________
 Ejercicio 2 – Bridge
 Un sistema de notificaciones debe enviar mensajes a los usuarios por distintos medios:
 Email y SMS.
