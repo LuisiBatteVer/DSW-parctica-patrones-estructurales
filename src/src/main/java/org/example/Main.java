@@ -26,7 +26,17 @@ import bridge.Promocion;
 
 
 public class Main {
+    public static void main(String[] args) {
+        Archivo archivo1 = new ArchivoProxy("Notas examen.pdf");
+        Archivo archivo2 = new ArchivoProxy("planilla de notas.xls");
+
+        archivo1.abrir("admin");
+        archivo2.abrir("maria");
+    }
+
+
 }
+
 //COMPOSITE
     //public static void main(String[] args) {
 //        // Creo platos individuales

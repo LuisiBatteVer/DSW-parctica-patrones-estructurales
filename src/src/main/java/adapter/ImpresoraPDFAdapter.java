@@ -2,12 +2,12 @@ package adapter;
 
 // Clase Adapter que permite usar una impresora PDF como si fuera una impresora genérica
 // Implementa la interfaz Impresora que espera el sistema
-public class ImpresoraPDFAdapter implements ejercicio1.Impresora {
+public class ImpresoraPDFAdapter implements adapter.Impresora {
 
-    private ejercicio1.ImpresoraPDF impresoraPDF; // Guarda la referencia a la impresora PDF real
+    private adapter.ImpresoraPDF impresoraPDF; // Guarda la referencia a la impresora PDF real
 
     // Constructor que recibe la impresora PDF real
-    public ImpresoraPDFAdapter(ejercicio1.ImpresoraPDF impresoraPDF) {
+    public ImpresoraPDFAdapter(adapter.ImpresoraPDF impresoraPDF) {
         this.impresoraPDF = impresoraPDF;
     }
 

@@ -1,4 +1,4 @@
-package adapter; 1.ADAPTER;
+package adapter;
 
 // Interfaz común para imprimir documentos
 // Permite que el sistema trabaje con cualquier tipo de impresora (PDF, texto, etc.)

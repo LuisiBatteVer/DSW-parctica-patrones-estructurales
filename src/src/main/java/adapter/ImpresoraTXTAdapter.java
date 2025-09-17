@@ -1,6 +1,6 @@
 package adapter;
 
-public class ImpresoraTXTAdapter implements ejercicio1.Impresora {
+public class ImpresoraTXTAdapter implements adapter.Impresora {
     private ImpresoraTXT impresoraTXT;  //atributo de la clase incompatible impresoraTXT
 
     // Constructor: recibe un objeto ImpresoraTXT
