@@ -11,9 +11,19 @@ import ejercicio4.Carrito;
 import ejercicio4.Envio;
 import ejercicio4.Pago;
 import ejercicio4.TiendaFacade;
+import ejercicio6.Archivo;
+import ejercicio6.ArchivoProxy;
 
 
 public class Main {
+    //public static void main(String[] args) {
+//        Archivo archivo1 = new ArchivoProxy("Notas examen.pdf");
+//        Archivo archivo2 = new ArchivoProxy("planilla de notas.xls");
+//
+//        archivo1.abrir("admin");
+//        archivo2.abrir("maria");
+//    }
+//}
    //  public static void main(String[] args) {
     //
     //            // Crear los subsistemas
@@ -45,5 +55,5 @@ public class Main {
 //            alertaEmail.enviar("Sistema caído");
 //            promocionSMS.enviar("50% de descuento en productos");
 //        }
-   }
+
 
