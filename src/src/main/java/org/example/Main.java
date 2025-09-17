@@ -4,7 +4,58 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
 
+import composite.Menu;
+import composite.Plato;
+import proxy.Archivo;
+import proxy.ArchivoProxy;
+import proxy.ArchivoReal;
+import facade.Carrito;
+import facade.Envio;
+import facade.Pago;
+import facade.TiendaFacade;
+import decorator.Plan;
+import decorator.PlanBasico;
+import decorator.HD;
+import bridge.CanalEnvio;
+import bridge.Email;
+import bridge.SMS;
+import bridge.Notificacion;
+import bridge.Alerta;
+import bridge.Promocion;
+
+
+
 public class Main {
+}
+//COMPOSITE
+    //public static void main(String[] args) {
+//        // Creo platos individuales
+//        Plato plato1 = new Plato("Ensalada", 150);
+//        Plato plato2 = new Plato("Sopa", 120);
+//        Plato plato3 = new Plato("Hamburguesa", 300);
+//        Plato plato4 = new Plato("Papas Fritas", 100);
+//
+//        // Creo un submenú
+//        Menu menuPostres = new Menu("Postres");
+//        menuPostres.agregar(new Plato("Helado", 90));
+//        menuPostres.agregar(new Plato("Flan", 80));
+//
+//        // Creo un menú principal
+//        Menu menuPrincipal = new Menu("Menú del día");
+//        menuPrincipal.agregar(plato1);
+//        menuPrincipal.agregar(plato2);
+//        menuPrincipal.agregar(plato3);
+//        menuPrincipal.agregar(plato4);
+//        menuPrincipal.agregar(menuPostres); // agrego el submenú
+//
+//        // Muestro todo el menú
+//        menuPrincipal.mostrar();
+//    }
+//}
+
+
+
+//PROXY
     //public static void main(String[] args) {
 //        Archivo archivo1 = new ArchivoProxy("Notas examen.pdf");
 //        Archivo archivo2 = new ArchivoProxy("planilla de notas.xls");
@@ -13,6 +64,8 @@ public class Main {
 //        archivo2.abrir("maria");
 //    }
 //}
+
+//FACADE
    //  public static void main(String[] args) {
     //
     //            // Crear los subsistemas
@@ -26,6 +79,8 @@ public class Main {
     //            // Usar solo el Facade para realizar la compra
     //            tienda.comprar("Auriculares Bluetooth", 1, "VISA 1234", 100000, "Calle Falsa 123");
     //        }
+
+//DECORATOR
     //public static void main(String[] args) {
     //        Plan plan = new PlanBasico();
     //        System.out.println(plan.getNombre() + " $" + plan.getCosto());
@@ -34,6 +89,8 @@ public class Main {
     //        System.out.println(plan.getNombre() + " $" + plan.getCosto());
     //    }
 
+
+//BRIDGE
        //public static void main(String[] args) {
 //            CanalEnvio email = new Email();
 //            CanalEnvio sms = new SMS();
