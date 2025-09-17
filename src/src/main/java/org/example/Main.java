@@ -26,16 +26,8 @@ import bridge.Promocion;
 
 
 public class Main {
-    public static void main(String[] args) {
-        Archivo archivo1 = new ArchivoProxy("Notas examen.pdf");
-        Archivo archivo2 = new ArchivoProxy("planilla de notas.xls");
-
-        archivo1.abrir("admin");
-        archivo2.abrir("maria");
-    }
-
-
 }
+
 
 //COMPOSITE
     //public static void main(String[] args) {
@@ -112,4 +104,23 @@ public class Main {
 //            promocionSMS.enviar("50% de descuento en productos");
 //        }
 
+//ADAPTER
+// public static void main(String[] args) {
+//        // Creo la impresora PDF "incompatible"
+//        ImpresoraPDF impresoraPDF = new ImpresoraPDF();
+//        // Creo el adapter para que la impresora PDF se comporte como una Impresora genérica
+//        Impresora impresoraPDFAdapter = new ImpresoraPDFAdapter(impresoraPDF);
+//
+//        // Creo la impresora TXT "incompatible"
+//        ImpresoraTXT impresoraTXT = new ImpresoraTXT();
+//        // Creo el adapter para la impresora TXT
+//        Impresora impresoraTXTAdapter = new ImpresoraTXTAdapter(impresoraTXT);
+//
+//        // Uso ambas impresoras a través de la misma interfaz
+//        System.out.println("=== Usando impresora PDF ===");
+//        impresoraPDFAdapter.imprimir("Contrato Laboral");
+//
+//        System.out.println("=== Usando impresora TXT ===");
+//        impresoraTXTAdapter.imprimir("Informe de Ventas");
+//    }
 
