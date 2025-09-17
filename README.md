@@ -16,13 +16,13 @@ Trabajo PATRONES ESTRUCTURALES
 
 Consignas del TP
 Ejercicio 1 – Adapter
-Una empresa tiene un sistema que trabaja con una clase ImpresoraPDF que imprime
+Una empresa tiene un sistema que trabaja con una clase adapter.ImpresoraPDF que imprime
 documentos PDF.
 Ahora necesitan también imprimir en impresoras de texto plano, pero sin modificar el
 sistema existente.
 Consigna:
 *  Crear una clase ImpresoraTexto (incompatible con la actual).
-*  Usar el patrón Adapter para que el sistema pueda imprimir tanto en PDF como en texto plano a través de una misma interfaz Impresora.
+*  Usar el patrón Adapter para que el sistema pueda imprimir tanto en PDF como en texto plano a través de una misma interfaz adapter.Impresora.
  ___________________________________
 Ejercicio 2 – Bridge
 Un sistema de notificaciones debe enviar mensajes a los usuarios por distintos medios:

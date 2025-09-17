@@ -3,17 +3,6 @@ package org.example;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
-import ejercicio2.*;
-import ejercicio3.HD;
-import ejercicio3.Plan;
-import ejercicio3.PlanBasico;
-import ejercicio4.Carrito;
-import ejercicio4.Envio;
-import ejercicio4.Pago;
-import ejercicio4.TiendaFacade;
-import ejercicio6.Archivo;
-import ejercicio6.ArchivoProxy;
-
 
 public class Main {
     //public static void main(String[] args) {
