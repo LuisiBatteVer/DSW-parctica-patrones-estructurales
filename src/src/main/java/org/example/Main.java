@@ -79,23 +79,24 @@ public class Main {
 
         FabricaArboles fabrica = new FabricaArboles();
 
-        // Simular crear 10 árboles (podés subir a 1_000_000 después)
-        for (int i = 0; i < 10; i++) {
+        // Vamos a crear 6 árboles de prueba (solo para ver cómo funciona)
+        for (int i = 0; i < 6; i++) {
             String tipo;
             if (i % 3 == 0) tipo = "Pino";
             else if (i % 3 == 1) tipo = "Roble";
             else tipo = "Eucalipto";
 
+            // Obtenemos el árbol de la fábrica
             Arbol arbol = fabrica.obtenerArbol(tipo, "Verde", "Textura-" + tipo);
 
-            // Dibujar en posición aleatoria
+            // Dibujamos el árbol en una posición aleatoria
             int x = (int) (Math.random() * 100);
             int y = (int) (Math.random() * 100);
             arbol.dibujar(x, y);
         }
 
-        // Mostrar cuántos objetos únicos se crearon
-        System.out.println("Cantidad de árboles únicos creados: " + fabrica.obtenerArbol("Pino", "Verde", "Textura-Pino") != null ? 3 : 0);
+        // Mostrar cuántos objetos únicos se crearon realmente
+        System.out.println("Cantidad de árboles únicos creados: " + fabrica.arboles.size());
 
         System.out.println(" ");
         System.out.println("----ejercicio 6: PROXY----");

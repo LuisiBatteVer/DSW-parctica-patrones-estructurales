@@ -6,7 +6,7 @@ import java.util.Map;
 // Fabrica que gestiona los objetos Arbol (Flyweights)
 public class FabricaArboles {
 
-    private Map<String, Arbol> arboles = new HashMap<>();
+    public Map<String, Arbol> arboles = new HashMap<>();
     // Mapa que guarda los árboles ya creados para reutilizarlos
 
     // Devuelve un árbol con las características indicadas
