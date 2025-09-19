@@ -1,5 +1,10 @@
 
-GRUPO:  Luisina Battella Alma Ponce Matias Fernandez Maria Jose Villarreal Aracelly Caballero M. Candela Gonzalez 
+GRUPO:  Luisina Battella Vercesi 
+        Alma Ponce
+        Matias Fernandez 
+        Maria Jose Villarreal
+        Aracelly Caballero
+        M. Candela Gonzalez 
 
 - Los ejericios estan en src/src/main/java
 - Estado actual: Clases organizadas en paquetes, cada paquete es un ejercicio que corresponde a un patron en el orden
